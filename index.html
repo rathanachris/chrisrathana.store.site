@@ -1,3 +1,7 @@
+<?php
+session start();
+error_reporting(0);
+include('includes/dbconnection.php');?>
 <!DOCTYPE html>
 <html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system" data-a11y-link-underlines="true" data-turbo-loaded="08fc27f">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -483,32 +487,7 @@ server.listen(3000, '127.0.0.1', () => {
 });
 // run with `node server.mjs`
 </script>
- <script type="application/ld+json">
- {
-  "name": "smile.shop",
-  "author": "Evan You <rathanachris 239@gmail.com>",
-  "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
-  "filename": "smile.shop",
-  "sri": null,
-  "version": "3.2.37",
-  "repository": {
-    "type": "git",
-    "url": "https://chrisrathana.smile.shop/com/mine.js",
-  },
-  "autoupdate": {
-    "source": "npm",
-    "target": "smile.shop",
-    "filepag": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.+(js|pag)"
-        ]
-      }
-    ]
-  }
-}
-</script>
+     
 </body>
 </html>
             
