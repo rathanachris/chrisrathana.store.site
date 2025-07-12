@@ -45,7 +45,7 @@ function togglePasswordView(fieldId,btnClass){
     <script type="text/javascript">
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            console.log('removing');
+            console.log('website');
             for (let registration of registrations) {
                 registration.unregister()
             }
