@@ -226,9 +226,3 @@ footer{
   text-decoration: none;  
   margin: 35%;
 }
-/* Container for grid layout */
-.grid-container{
-  width:80%;
-  margin:auto;
-  overflow:hidde;
-}
