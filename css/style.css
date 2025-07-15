@@ -159,6 +159,116 @@ html{
 }
 
 
+/* about us section */
+}
+body{
+ font-family: Arial, sans-serif;       background-color: #f4f4f4; 
+color: #333; line-height: 1.6;
+ min-height: 50vh;
+ background:url(../img/png) no-repeat;/*Add your background
+image path*/
+ background-size: cover; /* Makes the image cover the whole background-position: center;  Center the image */
+ background-repeat: no-repeat; /* Prevent the image from background repeating */
+}
+/* header logo img */
+.header{
+ background-color: #333;
+ color: white;
+ padding: 10px 0;
+}
+.about .row{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+  flex-wrap: wrap;
+  padding:2rem 0;
+  padding-bottom: 3rem;
+}
+.about .row.video-container{
+ flex:1 1 30rem;
+ position: relative;
+}
+.about .row.video-container video{
+ width:100%;
+ border:1.5rem solid #fff;
+ border-radius: .5rem;
+ box-shadow: 0.5rem 1rem Irgba(0,0,0,.1);
+}
+.about.row.video-container h3{
+ position: absolute;
+ top:50%;top:50%; 
+ transform:translateY(-50%);
+ font-size: 3rem;
+ background:#fff;
+ width:100%;
+ padding:1rem 2rm;
+}
+.about.row content{
+flex:1 1 40rem;
+}
+.about.row.content h3{
+ font-size: 3rem;
+ color: #333;
+}
+.about.row content p{
+ font-size: 1.5rem;
+ color: #9999;
+}
+.cta-button {
+ padding: 10px 10px;
+ background-color: #15192a;
+ color: black;
+}
+.cta-button:hover {
+ background-color: #131726;
+}
+/* Container for the icons section */
+#icons-contaner {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+/* Grid layout for categories */
+.contaner-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Style each icon box */
+.contaner-grid .icons {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 16px 24px;
+  transition: transform 0.2s ease;
+  width: 260px;
+}
+/* Add hover effect */
+.contaner-grid .icons:hover {
+  transform: translateY(-5px);
+}
+/* Icon image */
+.contaner-grid .icons img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+/* Text container */
+.contaner-grid .info h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+  text-transform: capitalize;
+}
+.contaner-grid .info span {
+  font-size: 14px;
+  color: #777;
+}
+
+
+
 
 
 
