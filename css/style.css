@@ -221,7 +221,7 @@ header label.fas {
   box-shadow:  0 18px 36px rgba(0,0,0,0.15);
   transition: -45s;
 }
-/* Image */
+/* category Image */
 .category-team img {
   width: 100%;
   height: auto;
@@ -329,7 +329,7 @@ header label.fas {
   font-weight: bold;
   transition: background 0.3s ease;
 }
-background: ;
+
 .about-section .button:hover {
   background-color: #0056b3;
 }
@@ -376,9 +376,9 @@ background: ;
 /* products section */
 .products {
   display: flex;
-  align-items: ;
+  align-items: 0;
   min-height: 30vh;
-  background:url(../img/computer.jpg) no-repeat;
+  background:url(../image/fb.computer.png) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -398,17 +398,17 @@ background: ;
   line-height: 1.5;
   color: #999;
   text-transform: none;
-  height: ;
+  height: 0;
 }
 /* Review section */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
   font-family: Arial, sans-serif;
-  background-color: #2f4f4f4;
+  background-color: 2f4f4f4;
   color: #333;
   line-height: 1.6;
 }
@@ -457,7 +457,7 @@ body {
  padding: 15px;
  margin: 10px 0;
  border-radius: 5px;
- background-color: #2f9f9f9;
+ background-color: 2f9f9f9;
 }
 .review h3 {
  margin-bottom: 10px;
@@ -491,17 +491,17 @@ body {
   cursor: pointer;
 }
 .review-form button:hover {
-  background-color: #2b08968;
+  background-color: 2b08968;
 }
 /* Contact section*/
 .contact{
- display: flex;
- align-items: center;
- min-height: 30vh;
- background:url(../image/fb.computer.png) no-repeat;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background:url(../image/fb.computer.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .contact.row content{
   max-width: 50rem;  
@@ -520,27 +520,26 @@ body {
   text-transform: none;
 }
 .header{
- background-color: #333;
- color: white;
- padding: 10px 0;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
 }
 .contact-section {
- padding: 50px 20px;
- text-align: center;
- background-color: #fff; 
- border-radius: 10px;
- margin: 20px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff; border-radius: 10px;
+  margin: 20px;
 }
 .contact-section h1 {
- font-size: 36px;
- margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 .contact-section p {
- font-size: 18px;
- margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 .contact-form{
- max-width: 600px; margin: 0 auto;  text-align: left;
+  max-width: 600px; margin: 0 auto;  text-align: left;
 }
 .contact-form input,
 .contact-form textarea{
@@ -558,16 +557,32 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
  background-color: #608968;
 }
 .map{
- margin: 20px 0;
- border: 0;
- width: 100%;
- height: 400px;
+  margin: 20px 0;
+  border: 0;
+  width: 100%;
+  height: 400px;
 }
+
+footer {
+  background-color: #ddd;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid #444;
+}
+
+footer .li{
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
 .social-icons {
   margin-top: 15px;
 }
 
 .social-icons a {
+  color: black;
   margin: 0 10px;
   text-decoration: none;
   font-size: 18px;
@@ -576,21 +591,9 @@ width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radiu
 }
 
 .social-icons a:hover {
-  color: #ff352b; /* Light blue on hover */
+  color: #00acee; /* Light blue on hover */
 }
 
-.social-icons i team{
+.social-icons i .team{
   margin-right: 6px;
-}
-footer{
-  background-color: #333;
-  color: black;
-  padding: 20px;
-  text-align: center;
-}
-.footer-li {  
-  color: black;    
-  background: #1a1e33;
-  text-decoration: none;  
-  margin: 35%;
 }
