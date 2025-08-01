@@ -1,4 +1,3 @@
-<script>
 function openModel(name){
     $(name).modal('toggle');
 }
@@ -51,9 +50,7 @@ function togglePasswordView(fieldId,btnClass){
             }
         })
     }
-</script>
-<script>
-        // this will run when form submit
+       // this will run when form submit
         
         let formSubmit = $('form')
         formSubmit.on('submit',function (params) {
@@ -67,6 +64,5 @@ function togglePasswordView(fieldId,btnClass){
         });
         $(document).ajaxStop(function () {
             $("#ajaxLoader").hide();
-        });
-
-</script>
+    });
+});
