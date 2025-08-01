@@ -138,7 +138,7 @@ header label.fas {
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background:url(../image/fb.computer.png) no-repeat;
+  background:url(../image/computer.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -378,7 +378,7 @@ header label.fas {
   display: flex;
   align-items: 0;
   min-height: 30vh;
-  background:url(../image/fb.computer.png) no-repeat;
+  background:url(../image/computer.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -421,7 +421,7 @@ body {
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background:url(../image/fb.computer.png) no-repeat;
+  background:url(../image/computer.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -498,7 +498,7 @@ body {
   display: flex;
   align-items: center;
   min-height: 30vh;
-  background:url(../image/fb.computer.png) no-repeat;
+  background:url(../image/computer.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
