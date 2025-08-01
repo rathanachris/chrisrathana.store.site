@@ -40,8 +40,7 @@ function togglePasswordView(fieldId,btnClass){
         }
         $(btnClass).toggle();
     }
-</script> 
-    <script type="text/javascript">
+
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then(function(registrations) {
             console.log('website');
