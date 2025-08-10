@@ -1,5 +1,5 @@
 function openModel(name){ 
-        let formSubmit = $('form')
+        let formSubmit = $('my app')
         formSubmit.on('submit',function (params) {
              console.log('click');
             $('#ajaxLoader').show();
