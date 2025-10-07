@@ -1,5 +1,5 @@
-9c9ff7ffpvu/* General Reset for spacing */
-* root {
+/* General Reset for spacing */
+*{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -230,8 +230,8 @@ nav a:hover {
 /* Media Queries for responsive layout */
 
 /* For screens less than or equal to 768px */
-@media (max-width: 48ppx) {
-    header {
+@media (max-width: 48px) {
+    html {
         flex-direction: column;
         text-align: center;
     }
@@ -251,7 +251,7 @@ nav a:hover {
         display: block;
     }
 }
-.home{
+.about {
   display: flex;
   align-items: center;
   min-height: 23vh;
@@ -260,41 +260,22 @@ nav a:hover {
   background-size: cover;
   background-position: center;
 }
-.home.content{
+.about.content{
   max-width: 50rem;  
 }
-.home.content span{
+. about.content span{
   font-size: 3.5rem;
   padding: 1rem 0;
   line-height: 1.5;
   font-weight: bolder;
 }
-.home.content p{
+.about.content p{
   font-size: 2rem;
   padding: 1rem 0;
   line-height: 1.5;
   color: #999;
   text-transform: none;
   height: ;
-}
-@media (max-width: 450px){
-   html {
-        font-size: 50%; /* Makes font size smaller for mobile */
-    }
-
-    nav a {
-        font-size: 16px; /* Adjust link size on small screens */
-    }
-
-    .icons a {
-        font-size: 18px;
-   }
-}
-nav {
-    background: #2c3e50;
-    padding: 12px;
-    border-radius: 8px;
-    margin-bottom: 20px;
 }
 nav a {
     margin: 0 15px;
