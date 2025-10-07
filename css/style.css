@@ -170,11 +170,72 @@ nav a:hover {
 .icons a:hover {
     color: #e67e22;
 }
+/* Responsive */
+@media (max-width: 768px) {
+  header nav ul {
+    font-size: 50%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+  }
+  header nav ul li {
+    border-top: 1px solid #333;
+  }
 
+  header label.fas {
+    display: block;
+  }
+
+  #toggler:checked ~ nav ul {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+   header .far-bars{
+       desplay: block;
+    }
+}
+.home{
+  display: flex;
+  align-items: center;
+  min-height: 30vh;
+  background:url(../image/fb.computer.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home.content{
+  max-width: 50rem;  
+}
+.home.content span{
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.home.content p{
+  font-size: 2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  color: #999;
+  text-transform: none;
+  height: ;
+}
+@media (max-width: 768px) {
+   html{
+       font-size: 50%;
+    }
+}
+/* Container Section */
 /* Media Queries for responsive layout */
 
 /* For screens less than or equal to 768px */
-@media (max-width: 768px) {
+@media (max-width: 48ppx) {
     header {
         flex-direction: column;
         text-align: center;
