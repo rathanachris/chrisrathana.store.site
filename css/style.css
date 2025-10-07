@@ -1,10 +1,28 @@
-General Reset for spacing */
+/* General Reset for spacing */
 * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'khmer.combodia, sans-serif;
+   text-decoration: none;
+   list-style: none;
+}
+body {
+  background: #f5f5f5;
+}
+section{
+  padding:2rem 9%;
+}
+html,body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-image: url('..images/phg') no-repeat; 
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+     
 }
-
 /* Header Style */
 header {
     background-color: #333;
@@ -23,7 +41,6 @@ header .logo {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 /* Toggler for Mobile */
 #toggler {
     display: none;
