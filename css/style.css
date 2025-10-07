@@ -1,4 +1,4 @@
-/* General Reset for spacing */
+9c9ff7ffpvu/* General Reset for spacing */
 * root {
    margin: 0;
    padding: 0;
@@ -195,7 +195,7 @@ nav a:hover {
     display: flex;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 450px){
    header .far-bars{
        desplay: block;
     }
@@ -225,11 +225,6 @@ nav a:hover {
   color: #999;
   text-transform: none;
   height: ;
-}
-@media (max-width: 768px) {
-   html{
-       font-size: 50%;
-    }
 }
 /* Container Section */
 /* Media Queries for responsive layout */
