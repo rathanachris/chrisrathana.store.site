@@ -8,7 +8,7 @@
 section{
   padding:2rem 9%;
 }
-html {
+html body{
     height: 100%;
     background: #f5f5f5;
     background-size: cover;  
@@ -67,22 +67,22 @@ header .logo {
   z-index: 1000;
 }
 
-header .logo {
+.header .logo {
   font-size: 2rem;
   color: #fff;
   font-weight: bold;
 }
 
-header .logo span {
+.header .logo span {
   color: #4CAF50;
 }
 
-header nav ul {
+.header nav ul {
   display: flex;
   gap: 20px;
 }
 
-header nav ul li a {
+.header nav ul li a {
   color: #fff;
   font-size: 1.1rem;
   text-transform: capitalize;
@@ -107,7 +107,7 @@ header .icons a {
   display: none;
 }
 
-header label.fas {
+.header label.fas {
   font-size: 2rem;
   color: #fff;
   cursor: pointer;
@@ -176,11 +176,11 @@ nav a:hover {
     gap: 0;
     display: none;
   }
-  header nav ul li {
+  .header nav ul li {
     border-top: 1px solid #333;
   }
 
-  header label.fas {
+  .header label.fas {
     display: block;
   }
 
