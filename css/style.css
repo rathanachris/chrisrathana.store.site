@@ -1,14 +1,9 @@
-/* General Reset for spacing */
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: 'khmer.combodia, sans-serif;
    text-decoration: none;
-   list-style: none;
-}
-body {
-  background: #f5f5f5;
 }
 section{
   padding:2rem 9%;
@@ -17,6 +12,7 @@ html.body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #f5f5f5;
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat; 
@@ -194,7 +190,7 @@ nav a:hover {
     display: flex;
   }
 }
-@media (max-width: 450px){
+@media (max-width: 768px){
    header .far-bars{
        desplay: block;
     }
@@ -202,7 +198,7 @@ nav a:hover {
 .home{
   display: flex;
   align-items: center;
-  min-height: 30vh;
+  min-height: 23vh;
   background:url(../images/fb.computer.png) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
@@ -228,8 +224,8 @@ nav a:hover {
 /* Container Section */
 /* Media Queries for responsive layout */
 
-/* For screens less than or equal to 768px */
-@media (max-width: 48px) {
+/* For screens mobile 📱
+@media (max-width: 480px) {
     html {
         flex-direction: column;
         text-align: center;
