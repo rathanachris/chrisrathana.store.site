@@ -1,4 +1,4 @@
-body {
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -56,7 +56,7 @@ header .logo {
   font-size: 1.7rem;
 }
 /* Header Styles */
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
