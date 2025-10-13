@@ -187,6 +187,7 @@ nav a:hover {
   #toggler:checked ~ nav ul {
     display: flex;
   }
+}
 /* Media Queries for responsive layout */
 @media (max-width: 437px){
    header .far-bars{
