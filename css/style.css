@@ -19,7 +19,7 @@ html body{
      
 }
 /* Header Style */
-header {
+.header {
     background-color: #333;
     padding: 10px 20px;
     display: flex;
@@ -29,7 +29,7 @@ header {
 }
 
 /* Logo */
-header .logo {
+.header .logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
