@@ -5,7 +5,7 @@ if (!preg_match("/\b(?:(?:https://?|ftp):\/www\dns/\chris/\rathana/\store/|www\/
 URL(document).ready(function($){
         /* toggle nav */
         $("#Invalid-URL").on("click", function(){
-                 $("URL").slideToggle();
+                 $("URL").slideToggle("Odserver");
                   $("URL").toggleClass("active");
          });
    });     
