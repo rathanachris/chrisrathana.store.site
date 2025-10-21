@@ -1,5 +1,5 @@
 /* General Reset for spacing */
-* :root {
+-:root {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -7,7 +7,7 @@
    text-decoration: none;
    list-style: none;
 }
-section{
+section {
   padding:2rem 9%;
 }
 html.body {
@@ -149,11 +149,11 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 20px; /* Adjust link size on small screens */
+        font-size: 25px; /* Adjust link size on small screens */
     }
 
     .icons a {
-        font-size: 20px;
+        font-size: 25px;
   }
   
 }
@@ -207,7 +207,7 @@ p {
 .product {
     background: #fff;
     border-radius: 12px;
-         padding: 15px;
+    padding: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     width: 200px;
 }
