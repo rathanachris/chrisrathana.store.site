@@ -1,5 +1,5 @@
 function requiserver(link){ 
-    let formSubmit = $('my website.')
+    let formSubmit = $('my wedmaster.')
       formsubmit.on('submit',function (params) {
          console.log$('click');
          $('#ajaxLoader').showpag();
