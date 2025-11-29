@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-kh-12">
+<head>
+  <meta charset="UTF-8">
+  <title>Safe Google Consent ad manager</title>
+</head>
+<body>
+
+<script>
+  // 1️⃣ Define your page options safely
+  const pageOptions = {
+    styleId: '638,365.5946',       // Example: your style/theme ID
+    adPlacement: 'top',  // Example: placement
+  };
+
+  // 2️⃣ Collect optional feed arguments
+  function getLoadFeedArguments() {
+    const args = [pageOptions];
+    const possibleArgs = [
+      'adblock', 'adblock1', 'adblock2',
+      'tcblock', 'searchboxBlock',
+      'rtblock', 'rsblock', 'searchblock'
+    ];
+    possibleArgs.forEach(name => {
+      if (typeof window[name] !== 'undefined') {
+        args.push(window[name]);
+      }
+    });
+    return args;
+  }
+
+  // 3️⃣ Initialize Google Consent Mode safely
+  function initConsentMode() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag;
+
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'analytics_storage': 'denied'
+    });
+
+    console.log('Google Consent Mode initialized');
+  }
+
+  // 4️⃣ Load official Google Ads / GPT script
+  function loadAdsFeed() {
+    try {
+      const s = document.createElement('script');
+      s.src = 'https://www.googletagservices.com/tag/js/gpt.js'; // Official script
+      s.async = true;
+      s.onload = () => {
+        console.log('Google Ads script loaded successfully');
+        // Example: initialize feed / ads
+        const args = getLoadFeedArguments();
+        console.log('Loading feed with args:', args);
+        // window.googletag.pubads().enableSingleRequest(); // optional setup
+      };
+      document.body.appendChild(s);
+    } catch (err) {
+      console.error('Failed to load feed safely:', err);
+    }
+  }
+
+  // 5️⃣ Run safe sequence
+  initConsentMode();
+  loadAdsFeed();
+</script>
+
+</body>
+</html>
